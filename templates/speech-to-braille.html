@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech-to-Braille & Braille-to-Speech</title>
+    <link rel="stylesheet" href="static/style.css">
+</head> 
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="sample.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="feature">
+            <h1>Speech-to-Braille</h1>
+            <p>Click the button and speak to convert speech to Braille text:</p>
+            <button id="speech-to-braille-btn" class="cta-button">Convert Speech to Braille</button>
+            <div id="braille-output"></div>
+        </section>
+
+        <section class="feature">
+            <h1>Braille-to-Speech</h1>
+            <p>Input Braille text to convert into speech:</p>
+            <textarea id="braille-input" rows="5" cols="50"></textarea><br>
+            <button id="braille-to-speech-btn" class="cta-button">Convert Braille to Speech</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Universal Assistive Communication Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="speech-to-braille.js"></script>
+</body>
+</html>
