@@ -3,3 +3,4 @@ pyttsx3
 gTTS
 Flask
 transformers
+openai-whisper
